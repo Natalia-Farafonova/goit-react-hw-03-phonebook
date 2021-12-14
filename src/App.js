@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Section from './Components/Section/Section';
-import ContactForm from './Components/ContactForm/ContactForm';
+import Section from './components/Section/Section';
+import ContactForm from './components/ContactForm/ContactForm';
 import { nanoid } from 'nanoid';
-import ContactList from './Components/ContactList/ContactList';
-import Filter from './Components/Filter/Filter';
+import ContactList from './components/ContactList/ContactList';
+import Filter from './components/Filter/Filter';
 import s from './App.module.css';
 
 export default class App extends Component {
